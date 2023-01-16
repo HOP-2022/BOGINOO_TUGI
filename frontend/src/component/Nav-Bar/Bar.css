@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+.Main-Body{
+    /* display: inline-block;
+    justify-content: flex-end;
+    padding: 20px; */
+    display: grid;
+    grid-template-columns: 70% 15% 15%;
+}
+.Green-Text{
+    color: #02B589;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    width: 274px;
+    height: 23px;
+    grid-column: 2;
+    padding: 10px;
+}
+
+.White-Text-Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+    background-color: #02B589;
+    border: 0;
+    width: 192px;
+    height: 44px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    grid-column: 3;
+}
+.White-Text-Button:hover{
+    background-color: #00926d;
+}

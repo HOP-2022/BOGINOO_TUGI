@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.Black{
+    color:"black";
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+.White{
+    color:grey;
+    margin-bottom:-5vh;
+    margin-left:-8.3vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+  }
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height:10vh;
+  } 
